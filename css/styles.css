@@ -378,7 +378,7 @@ i{
   
   #p1{
     position: absolute;
-    width: 262px;
+    width: 270px;
     height: 27px;
     left: 26px;
     top: 155px;
@@ -434,7 +434,7 @@ i{
     width: 47px;
     height: 23px;
     left: 0px;
-    top: 534px;
+    top: 522px;
     font-size: 10px;
   }
   
@@ -442,8 +442,8 @@ i{
     position: absolute;
     width: 47px;
     height: 23px;
-    left: 0px;
-    top: 534px;
+    left: 148px;
+    top: 522px;
     font-size: 10px;
   }
   
@@ -451,8 +451,8 @@ i{
     position: absolute;
     width: 47px;
     height: 23px;
-    left: 0px;
-    top: 534px;
+    left: 77px;
+    top: 522px;
     font-size: 10px;
   }
   
@@ -460,12 +460,10 @@ i{
     position: absolute;
     width: 47px;
     height: 23px;
-    left: 0px;
-    top: 534px;
+    left: 219px;
+    top: 522px;
     font-size: 10px;
   }
-  
-  
   
   a:hover{
     color: white;

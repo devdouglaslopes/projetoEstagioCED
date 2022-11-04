@@ -1,3 +1,7 @@
+html{
+  background-color: #08070B;
+}
+
 #frame1{
   box-sizing: border-box;
   position: absolute;
@@ -5,8 +9,6 @@
   height: 100%;
   left: 0px;
   top: 0px;
-
-  background: #08070B;
 }
 
 #nav-bar{
@@ -66,7 +68,7 @@ li a {
   color: #6A6363;
 }
 
-#sobre_mim{
+#sobre{
   font-family: 'Exo';
   font-style: normal;
   font-weight: 400;
@@ -76,7 +78,7 @@ li a {
   color: #6A6363;
 }
 
-#contate_me{
+#portfolio{
   font-family: 'Exo';
   font-style: normal;
   font-weight: 400;
@@ -98,6 +100,14 @@ li a {
   background-clip: text;
   margin-left: 38%;
   color: #36b2df;
+}
+
+#principal{
+  position: absolute;
+  width: auto;
+  height: auto;
+  top: 46px;
+  left: 25px;
 }
 
 h1{
@@ -172,40 +182,38 @@ h1{
 
 #instagram{
   position: absolute;
-  width: 140px;
-  height: 35px;
+  width: 109px;
+  height: 30px;
   left: 320px;
   top: 534px;
 }
 
 #linkedin{
   position: absolute;
-  width: 121px;
-  height: 35px;
+  width: 109px;
+  height: 30px;
   left: 728px;
   top: 534px;
 }
 
 #github{
   position: absolute;
-  width: 112px;
-  height: 35px;
+  width: 109px;
+  height: 30px;
   left: 522px;
   top: 534px;
 }
 
 #whatsapp{
   position: absolute;
-  width: 135px;
-  height: 35px;
+  width: 109px;
+  height: 30px;
   left: 919px;
   top: 534px;
 }
 
-
-
 a:hover{
-  color: white;
+  color: rgb(255, 255, 255);
   background-color: rgb(32, 32, 32);
   border-radius: 10px;
   height: 35px;
@@ -232,9 +240,9 @@ a:hover{
 }
 
 footer{
-  text-align: center;
-  float: inline;
-
+  position: absolute;
+  left: -36px;
+  top: 3px;
 }
 
 i{
@@ -316,7 +324,7 @@ i{
     top: 58px;
   }
   
-  #sobre_mim{
+  #sobre{
     font-family: 'Exo';
     font-style: normal;
     font-weight: 400;
@@ -326,10 +334,10 @@ i{
     color: #6A6363;
     position: absolute;
     top: 58px;
-    left: 110px;
+    left: 140px;
   }
   
-  #contate_me{
+  #portfolio{
     font-family: 'Exo';
     font-style: normal;
     font-weight: 400;
@@ -339,8 +347,7 @@ i{
     color: #6A6363;
     position: absolute;
     top: 58px;
-    left: 210px;
-    
+    left: 275px;
   }
   
   #menu{
@@ -432,48 +439,44 @@ i{
   #instagram{
     position: absolute;
     width: 47px;
-    height: 23px;
-    left: 0px;
-    top: 522px;
+    height: 43px;
+    left: 5px;
+    top: 583px;
     font-size: 10px;
   }
   
   #linkedin{
     position: absolute;
     width: 47px;
-    height: 23px;
-    left: 148px;
-    top: 522px;
+    height: 43px;
+    left: 193px;
+    top: 583px;
     font-size: 10px;
   }
   
   #github{
     position: absolute;
     width: 47px;
-    height: 23px;
-    left: 77px;
-    top: 522px;
+    height: 43px;
+    left: 100px;
+    top: 583px;
     font-size: 10px;
   }
   
   #whatsapp{
     position: absolute;
     width: 47px;
-    height: 23px;
-    left: 219px;
-    top: 522px;
+    height: 43px;
+    left: 282px;
+    top: 583px;
     font-size: 10px;
   }
-  
+ 
   a:hover{
     color: white;
     background-color: rgb(32, 32, 32);
     border-radius: 10px;
     height: 35px;
-  }
-  
-  #whatsapp:hover{
-    color: #22E15A;
   }
   
   #whatsapp:hover{
@@ -502,4 +505,78 @@ i{
     background: #08070B;
     border-radius: 10px;
   }
+}
+
+#principal_sobre{
+  position: absolute;
+  width: auto;
+  height: auto;
+  top: 46px;
+  left: -100px;
+}
+
+#foto{
+  position: absolute;
+  width: 201px;
+  height: 406px;
+  left: 204px;
+  top: 26px;
+  border-radius: 40px;
+}
+
+#sobre_mim{
+  position: absolute;
+  width: 620px;
+  height: 67px;
+  left: 420px;
+  top: 21px;
+  font-family: 'Kanit', ;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 84px;
+  background: linear-gradient(90.63deg, #91a3ff -2.54%, #3b00cb 50.22%, #4393B5 110.13%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+#p3{
+  position: absolute;
+  width: 447px;
+  height: 27px;
+  left: 419px;
+  top: 93px;
+
+  font-family:'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 32px;
+  text-align: left;
+
+  color: #ffffff;
+}
+
+#hard_skills{
+  position: absolute;
+  width:  183px;
+  height: 67px;
+  left: 1101px;
+  top: 21px;
+  font-family: 'Kanit', ;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 84px;
+  background: linear-gradient(90.63deg, #556CE3 -2.54%, #508BC2 50.22%, #4393B5 110.13%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+#footer_sobre{
+  position: absolute;
+  left: -36px;
+  top: 553px;
 }

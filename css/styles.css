@@ -511,8 +511,8 @@ i{
   position: absolute;
   width: auto;
   height: auto;
-  top: 46px;
-  left: -100px;
+  top: 136px;
+  left: 137px;
 }
 
 #foto{
@@ -528,8 +528,8 @@ i{
   position: absolute;
   width: 620px;
   height: 67px;
-  left: 420px;
-  top: 21px;
+  left: 205px;
+  top: -63px;
   font-family: 'Kanit', ;
   font-style: italic;
   font-weight: bold;
@@ -546,7 +546,7 @@ i{
   width: 447px;
   height: 27px;
   left: 419px;
-  top: 93px;
+  top: 39px;
 
   font-family:'Open Sans';
   font-style: normal;
@@ -562,8 +562,8 @@ i{
   position: absolute;
   width:  183px;
   height: 67px;
-  left: 1101px;
-  top: 21px;
+  left: 203px;
+  top: 463px;
   font-family: 'Kanit', ;
   font-style: italic;
   font-weight: bold;
@@ -573,10 +573,77 @@ i{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  color: linear-gradient(117deg, rgba(198,43,221,1) 0%, rgba(115,48,214,1) 49%, rgba(23,132,185,1) 100%);;
 }
 
 #footer_sobre{
   position: absolute;
   left: -36px;
-  top: 553px;
+  top: 456px;
 }
+
+#html{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 87px;
+  height: 36px;
+  background-color: rgb(29, 29, 29);
+  border-radius: 5px;
+  background: linear-gradient(117deg, rgba(198,43,221,1) 0%, rgba(115,48,214,1) 49%, rgba(23,132,185,1) 100%);
+}
+
+#css{
+  position: absolute;
+  left: 171px;
+  top: 0px;
+  width: 87px;
+  height: 36px;
+  background-color: rgb(29, 29, 29);
+  border-radius: 5px;
+  background: linear-gradient(117deg, rgba(198,43,221,1) 0%, rgba(115,48,214,1) 49%, rgba(23,132,185,1) 100%);
+}
+
+#javascript{
+  position: absolute;
+  left: 339px;
+  top: 0px;
+  width: 105px;
+  height: 36px;
+  background-color: rgb(29, 29, 29);
+  border-radius: 5px;
+  background: linear-gradient(117deg, rgba(198,43,221,1) 0%, rgba(115,48,214,1) 49%, rgba(23,132,185,1) 100%);
+}
+
+#python{
+  position: absolute;
+  left: 0px;
+  top: 115px;
+  width: 87px;
+  height: 36px;
+  background-color: rgb(29, 29, 29);
+  border-radius: 5px;
+  background: linear-gradient(117deg, rgba(198,43,221,1) 0%, rgba(115,48,214,1) 49%, rgba(23,132,185,1) 100%);
+}
+
+#php{
+  position: absolute;
+  left: 171px;
+  top: 115px;
+  width: 87px;
+  height: 36px;
+  background-color: rgb(29, 29, 29);
+  border-radius: 5px;
+  background: linear-gradient(117deg, rgba(198,43,221,1) 0%, rgba(115,48,214,1) 49%, rgba(23,132,185,1) 100%);
+}
+
+#div_hardskills{
+  color: white;
+  position: absolute;
+  top: 582px;
+  left: 241px;
+  width: 87px;
+  height: 36px;
+  text-align: center;
+}
+
